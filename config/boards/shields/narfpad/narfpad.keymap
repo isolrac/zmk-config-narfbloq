@@ -49,7 +49,7 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer {
-            label= "DEFAULT";
+            display-name = "DEFAULT";
             bindings = <
                           &kp LG(W)           &kp LG(LS(F))    &kp LG(F)
                           &kp LG(LS(L))       &kp LS(F12)      &kp LS(LA(H))
@@ -59,7 +59,7 @@
             sensor-bindings = <&inc_dec_kp LG(LA(RIGHT)) LG(LA(LEFT))>;
         };
         lower_layer {
-            label = "LOWER";
+            display-name = "LOWER";
             bindings = <
                           &bt BT_PRV        &bt BT_CLR          &bt BT_NXT
                           &sys_reset        &none               &bootloader
