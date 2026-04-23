@@ -1,3 +1,4 @@
 include:
   - board: xiao_ble
     shield: narfpad
+    cmake-args: -DSNIPPET=studio-rpc-usb-uart
