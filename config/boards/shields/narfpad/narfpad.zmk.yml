@@ -6,4 +6,5 @@ url: https://github.com/sebastian-stumpf/narfpad
 requires: [xiao_ble]
 features:
   - keys
+  - encoder
 
